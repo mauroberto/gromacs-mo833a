@@ -1,20 +1,27 @@
 language: cpp
 
-sudo: true
+install:
+  - wget https://github.com/Kitware/CMake/releases/download/v3.20.0/cmake-3.20.0.tar.gz
+  - tar -zxvf cmake-3.20.0.tar.gz
+  - cd cmake-3.20.0
+  - ./bootstrap
+  - make
+  - make install
 
+compiler:
+  - clang
+  - gcc
 
-#install:
-  
-
-#script:
-
-
-#after_script:
-  
+script: 
+  - cd ${TRAVIS_BUILD_DIR}
+  - cmake .. -DGMX_BUILD_OWN_FFTW=ON 
+  - make
+  - make check
+  - sudo make install
+  - source /usr/local/gromacs/bin/GMXRC
 
 after_success:
   - echo "success"
  
 after_failure:
   - echo "failure"
-  - kpsewhich tkz-graph.sty
