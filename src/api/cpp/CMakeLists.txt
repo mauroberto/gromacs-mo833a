@@ -109,7 +109,6 @@ set_target_properties(gmxapi PROPERTIES
                    	VERSION ${GMXAPI_RELEASE}
                    	)
 
-
 target_link_libraries(gmxapi PRIVATE libgromacs)
 
 
