@@ -44,7 +44,6 @@ install:
     - echo ${CXX}
     - ${CXX} --version
     - ${CXX} -v
-    - sudo pip install codecov
     
     # Download and install recent cmake
     - |
