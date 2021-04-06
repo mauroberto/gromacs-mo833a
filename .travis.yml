@@ -12,10 +12,10 @@ compiler:
   - clang
   - gcc
 
-script: 
-  - cd ${TRAVIS_BUILD_DIR}
-  - cmake .. -DGMX_BUILD_OWN_FFTW=ON 
-  - make
-  - make check
-  - sudo make install
-  - source /usr/local/gromacs/bin/GMXRC
+#script: 
+#  - cd ${TRAVIS_BUILD_DIR}
+#  - cmake .. -DGMX_BUILD_OWN_FFTW=ON 
+#  - make
+#  - make check
+#  - sudo make install
+#  - source /usr/local/gromacs/bin/GMXRC
