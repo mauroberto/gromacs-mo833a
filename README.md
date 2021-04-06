@@ -1,6 +1,6 @@
 ![Build Status](https://travis-ci.org/mauroberto/gromacs-mo833a.svg?branch=release-2020)
 
-<center>Welcome to the official version of GROMACS!</center>
+Welcome to the official version of GROMACS!
 
 If you are familiar with Unix, it should be fairly trivial to compile and
 install GROMACS. GROMACS uses only the CMake build sytem, and our
@@ -16,7 +16,7 @@ and special information for developers.
 If you are a developer, or change the source for any other reason, check
 out http://www.gromacs.org/Developer_Zone.
 
-<center>* * * * *</center>
+* * * * *
 
 GROMACS is free software, distributed under the GNU Lesser General
 Public License, version 2.1 However, scientific software is a little
@@ -42,7 +42,7 @@ derived work. It should not use the name "official GROMACS", and make
 sure support questions are directed to you instead of the GROMACS developers.
 Sorry for the hard wording, but it is meant to protect YOUR reseach results!
 
-<center>* * * * *</center>
+* * * * *
 
 The development of GROMACS is mainly funded by academic research grants. 
 To help us fund development, we humbly ask that you cite the GROMACS papers:
@@ -86,6 +86,6 @@ contribute in other ways are listed as GROMACS supporters on our webpages.
 Don't hesitate to contact us if you are interested.
 
 
-<center>Good luck with your simulations!</center>
+Good luck with your simulations!
 
-<center>The GROMACS Crew</center>
+The GROMACS Crew
